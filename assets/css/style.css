@@ -1,0 +1,70 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+
+h1{
+	font-family:"Georgia", "Times", "Times New Roman", "serif";
+}	
+
+header, section, footer, aside, nav, hgroup{
+	display:block;
+}
+
+body {
+			text-align:center;
+			background-color:#ffffff;
+	}
+
+#container{
+	border:1px solid black;
+	width:960px;
+	margin:20px auto;
+	text-align:left;
+	background-image:url('vertical-waves.png');
+}
+
+#top_header{
+	background-color:#ffffff;
+	border:1px solid black;
+	padding:0px;
+	color:#ffffff;
+}
+
+#name{
+	background:#4aaaa5;
+	width:240px;
+	margin-left: 100px;
+	text-align:center;
+	height:100%;
+}
+
+#menu{
+	color:#777777;
+	float:right;
+	width:240px;
+	margin-top:-50px;
+	border:solid black 1px;
+	margin-right: 100px;
+	text-align:center;
+}
+
+#menu li{
+	display:inline-block;
+	list-style:none;
+	padding:5px;
+}
+
+
+#profilePic{
+	height: 200px;
+}
+
+#bio	{
+	
+}
+
+#links{
+	
+}
