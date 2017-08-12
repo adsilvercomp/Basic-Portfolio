@@ -61,10 +61,28 @@ body {
 	height: 200px;
 }
 
-#bio	{
+#bio{
+	width:640px;
 	
 }
 
 #links{
-	
+	width:320px;
+	float:right;
+	margin-top:-300px;
+	border:black solid 2px;
+}
+
+#links img{
+	height:50px;
+}
+
+#footer{
+	background-color:#666666;
+	color:#ffffff;
+	border-top:#4aaaa5 7px solid;
+	text-align:center;
+	font-size: 10px;
+	padding-top:35px;
+	padding-bottom:35px;
 }
