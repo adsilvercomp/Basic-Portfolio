@@ -13,8 +13,8 @@ header, section, footer, aside, nav, hgroup{
 }
 
 body {
-			text-align:center;
-			background-color:#ffffff;
+	text-align:center;
+	background-color:#ffffff;
 }
 
 .container{
@@ -25,6 +25,13 @@ body {
 	background-image:url('../../images/vertical-waves.png');
 }
 
+.clearfix:after{
+	content:"";
+	display:block;
+	height:0px;
+	clear:both;
+	visibility:hidden;
+}
 
 
 #top_header{
@@ -33,10 +40,10 @@ body {
 	padding:0px;
 	color:#ffffff;
 	border-bottom: #777777 2px solid;
-	overflow: auto;
 }
 
 #name{
+	float:left;
 	background:#4aaaa5;
 	width:200px;
 	margin-left: 90px;
@@ -48,8 +55,8 @@ body {
 	color:#777777;
 	float:right;
 	width:240px;
-	margin-top:-50px;
 	border:solid black 1px;
+	margin-top:20px;
 	margin-right: 100px;
 	text-align:center;
 	font-family:"Arial", "Helvetica Neue", "Helvetica", "sans-serif";
@@ -96,29 +103,28 @@ body {
 #bio{
 	width:433.3px;
 	border:black 2px solid;
-	margin-left:90px;
 	background-color:#ffffff;
-	margin-top:20px;
-	margin-bottom:20px;
+	float:left;
 	padding-left:20px;
 	padding-bottom:20px;
 	padding-right:20px;
+	margin-left:90px;
+	margin-top:30px;
+	margin-bottom:30px;
 }
 
 
 #links{
 	width:160px;
 	float:right;
-	margin-top:-515px;
-	margin-right:160px;
-	margin-left:100px;
 	border:black solid 2px;
 	text-align:center;
 	background-color:#ffffff;
 	padding-bottom:5px;
 	padding-right:20px;
 	padding-left:20px;
-	overflow: auto
+	margin-right:160px;
+	margin-top:30px;
 }
 
 #links img{
@@ -126,6 +132,7 @@ body {
 	padding-top:10px;
 	padding-bottom:10px
 }
+
 
 #footer{
 	background-color:#666666;
@@ -135,6 +142,7 @@ body {
 	font-size: 10px;
 	padding-top:35px;
 	padding-bottom:35px;
+	clear:left;
 }
 
 #bHeader{
@@ -152,6 +160,10 @@ body {
 	padding-top:10px;
 	padding-bottom:10px;
 	
+}
+
+.clear-me{
+	clear:right;
 }
 
 
