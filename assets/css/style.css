@@ -114,6 +114,7 @@ body {
 }
 
 
+
 #links{
 	width:160px;
 	float:right;
@@ -162,10 +163,70 @@ body {
 	
 }
 
-.clear-me{
-	clear:right;
+
+#Porfolio{
+	width:433.3px;
+	border:black 2px solid;
+	background-color:#ffffff;
+	float:left;
+	padding-left:20px;
+	padding-bottom:20px;
+	padding-right:20px;
+	margin-left:90px;
+	margin-top:30px;
+	margin-bottom:30px;
 }
 
+#hangman{
+	display: inline-block;
+	height:150px;
+	width:200px;
+	margin-top:20px;
+}
 
+#rpg{
+	display: inline-block;
+	height:150px;
+	width:200px;
+	margin-top:20px;
+	margin-left:20px;
+}
+
+#trivia{
+	display: inline-block;
+	height:150px;
+	width:200px;
+}
+
+#info{
+	display: inline-block;
+	height:150px;
+	width:200px;
+	margin-left:20px;
+}
+
+#rps{
+	display: inline-block;
+	height:150px;
+	width:200px;
+}
+
+#image{
+	height:150px;
+	width:200px;
+}
+
+#pTitle{
+position:relative;
+bottom:50px;
+background:#4aaaa5;
+color:#ffffff;
+width:200px;
+font-family: "Arial", "Helvetica Neue", "Helvetica", "sans-serif";
+text-align:center;
+font-weight: normal;
+padding-top:10px;
+padding-bottom:10px;
+}
 
 
