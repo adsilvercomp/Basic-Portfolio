@@ -200,6 +200,8 @@ body {
 	float:left;
 }
 
+		
+
 #rpg{
 	display: inline-block;
 	height:150px;
@@ -207,6 +209,8 @@ body {
 	margin-top:20px;
 	float:right;
 }
+
+
 
 #trivia{
 	display: inline-block;
@@ -216,6 +220,8 @@ body {
 	float:left;
 }
 
+		
+
 #info{
 	display: inline-block;
 	margin-top:30px;
@@ -223,6 +229,8 @@ body {
 	width:240px;
 	float:right;
 }
+
+		
 
 #rps{
 	display: inline-block;
@@ -232,23 +240,36 @@ body {
 	float:left;
 }
 
+	
+	
 #image{
 	height:150px;
 	width:240px;
+	transition: height 2s;
 }
+
+		#image:hover{
+			height:165px;
+		}
+		
 
 #pTitle{
 position:relative;
 bottom:50px;
 background:#4aaaa5;
 color:#ffffff;
-width:240px;
+width:100%;
 font-family: "Arial", "Helvetica Neue", "Helvetica", "sans-serif";
 text-align:center;
 font-weight: normal;
 padding-top:10px;
 padding-bottom:10px;
+transition: width 2s;
 }
+
+	
+
+
 
 
 
@@ -307,6 +328,7 @@ padding-bottom:10px;
 	text-align:center;
 	padding-top:10px;
 }
+	
 	#fbutton:hover{
 		background-color:#777777;
 		color:#4aaaa5;
