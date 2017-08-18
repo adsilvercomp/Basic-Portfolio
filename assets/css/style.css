@@ -240,13 +240,13 @@ body {
 
 	
 	
-#image{
+.image{
 	height:150px;
 	width:240px;
 	transition: height 2s;
 }
 
-		#image:hover{
+		.image:hover{
 			height:165px;
 		}
 		
